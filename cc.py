@@ -40,13 +40,6 @@ class animal:
 
     def is_alive(self):
         if self.progress <- 0.5:
-            print('Cast out......')
-            self.alive = False
-        elif self.tohunger <- 100:
-            print('You are very hungry..')
-            self.alive = False
-        elif self.progress > 5:
-            print('Passed externally...')
             self.alive = False
 
 
