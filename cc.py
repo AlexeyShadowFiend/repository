@@ -27,7 +27,7 @@ class animal:
         print('You go to eat')
         self.gladness += 5
         self.progress -= 0.2
-        self.tohunger -= 8
+        self.tohunger = 0
         self.toeat += 10
 
 
